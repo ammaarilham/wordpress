@@ -1,0 +1,57 @@
+/* 
+ * Icon Box 
+ */
+.wke-icon-box{
+   min-width:100px;
+   max-width:400px;
+   height:auto;
+   overflow:hidden;
+}
+.wke-icon-box .icon{
+   font-size:2rem;
+   width:50px;
+   height:50px;
+   text-align: center;
+   overflow: hidden;
+   margin:0 auto 10px;
+   display: flex;
+   display: -webkit-flex; 
+   justify-content:center;
+   align-items:center;
+}
+.wke-icon-box .icon img{
+   max-width:100%;
+   height:auto;
+}
+.wke-icon-box .content{
+   text-align:center;
+}
+.wke-icon-box .title{
+   font-size:18px;
+   font-weight:bold;
+   display: block;
+   margin-bottom:5px;
+}
+.wke-icon-box .intro{
+   font-size:14px;
+   line-height:1.5em;
+   margin-top:0;
+}
+.wke-icon-box.left .icon{
+   float:left;
+   margin:0 10px 0 0;
+}
+.wke-icon-box.left .content{
+   float:right;
+   width:83%;
+   text-align:left;
+}
+.wke-icon-box.right .icon{
+   float:right;
+   margin:0 0 0 10px;
+}
+.wke-icon-box.right .content{
+   float:left;
+   width:83%;
+   text-align:right;
+}

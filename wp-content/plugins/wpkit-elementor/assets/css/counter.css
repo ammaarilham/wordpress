@@ -1,0 +1,32 @@
+/* 
+ * Counter
+ * Slug: counter
+ */
+ .wke-counter{
+  width:100%;
+  height:auto;
+  text-align:center;
+  border-right:1px solid rgba(0,0,0,.05);
+}
+.wke-counter.no-border{
+  border-width:0;
+}
+.wke-counter .wke-count-number{
+    display:block;
+  font-size:3em;
+  font-weight:500;
+}
+.wke-counter .wke-counter-text{
+  font-size:1em;
+  display: block;
+  font-weight:300;
+  margin-top:10px;
+}
+@media (max-width: 767px){
+   .wke-counter{
+      border-right:none;
+      border-bottom:1px solid rgba(0,0,0,.05);
+      margin-bottom:30px;
+      padding-bottom:20px;
+   }
+}

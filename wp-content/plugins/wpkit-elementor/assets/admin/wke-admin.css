@@ -1,0 +1,219 @@
+/**
+ * Admin CSS
+ *
+ * @package WPKit For Elementor
+ * @since 1.0
+ */
+
+#adminmenu .wp-menu-image img{
+    width:55%;
+    padding-top:5px;
+}
+.wke-wrap h1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.wke-wrap h1 img{
+    width: 30px;
+    margin-right: 10px;
+}
+.wke-wrap h2{
+    text-transform: uppercase;
+    padding:10px;
+    font-weight:normal;
+    text-transform:none;
+    margin: 20px auto;
+}
+.wke-wrap .nav-tab-wrapper{
+    margin:40px auto!important;
+}
+.wke-wrap h3{
+    font-weight:bold;
+    margin:15px auto;
+}
+.wke-wrap h3 span{
+    display:inline-block;
+}
+.wke-wrap h3 .button{
+    display:inline-block;
+    margin-left:10px;
+}
+.wke-wrap .box{
+    border:1px solid #ccc;
+    background:#fff;
+    padding:20px 40px;
+    clear:both;
+    float:none;
+    font-size:16px;
+    line-height: 1.5em;
+    margin-bottom:10px;
+}
+.wke-wrap .box p{
+    font-size:16px;
+}
+.wke-wrap .col li{
+    padding:10px 0;
+    border-bottom:1px solid #ddd;
+}
+.wke-wrap .col li:last-child{
+    border:none;
+}
+.wke-wrap .section{
+    margin:20px 0;
+    clear:both;
+}
+.wke-wrap img{
+    width:auto;
+    max-width:100%;
+    height:auto;
+}
+.wke-wrap .questions{
+    height:700px;
+    overflow: auto;
+}
+.wke-wrap .intro{
+    font-size:18px;
+    width:80%;
+    display:block;
+    margin-bottom:40px;
+}
+.wke-wrap .expired_date{
+    margin:20px auto;
+    color:#4caf50;
+    display: block;
+}
+.wke-wrap input[name="purchase_key"]{
+    padding:10px;
+    width:89%;
+    float:left;
+    margin-bottom:20px;
+}
+.wke-wrap input[name="activate_license"],
+.wke-wrap input[name="deactivate_license"]{
+    height: 39px;
+    float: left;
+    margin-left:5px;
+    width:100px;
+}
+.wke-wrap .box{
+    width: 90%;
+    background: #fff;
+} 
+.wke-wrap .module-card{
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wke-wrap .module-card:last-child{
+    border-bottom: none;
+}
+.wke-wrap .module-card .name{
+    margin-right: 10%;
+}
+.wke-wrap .module-card .name h3{
+    font-size: 16px;
+}
+.wke-wrap .module-card .name p{
+    font-size: 14px;
+}
+
+.wke_toggle{
+  display:block;
+  width:40px;
+  height:20px;
+  position:relative;
+  background:#ccc;
+  border-radius: 50px;
+}
+.wke_toggle:before{
+  content:'';
+  position:absolute;
+  width:20px;
+  height:20px;
+  top:0;
+  left:0;
+  display:block;
+  background:#999;
+  border-radius: 50%;
+}
+.toggle-on:before{
+  right:0;
+  left:auto;
+  background:#76b54f;
+}
+.toggle-on{
+  background:#b0de92;
+}
+
+/* loading option */
+.wke-loading,
+.wke-loading:after {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  margin:12px 0 0 12px;
+  position: fixed;
+  bottom: 50%;
+  left: 50%;
+  margin-top: -26px;
+  margin-left: -26px;
+  z-index: 10000;
+}
+
+.wke-loader-overlay{
+  width:100%;
+  height:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 9999;
+  background:#fff;
+  opacity: .9;
+  display:none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.wke-loading {
+  background-color: transparent;
+  border-top: 2px solid #76b54f;
+  border-right: 2px solid #76b54f;
+  border-bottom: 2px solid #76b54f;
+  border-left: 2px solid #fff;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-duration: .8s;
+  animation-duration: .8s;
+  -webkit-animation-name: wke-loading;
+  animation-name: wke-loading;
+  display:none;
+}
+
+@-webkit-keyframes wke-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes wke-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

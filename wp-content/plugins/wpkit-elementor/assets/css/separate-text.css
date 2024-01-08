@@ -1,0 +1,34 @@
+/* 
+ * Separate Text
+ * Slug: separate-text
+ */
+
+.wke-separate-text{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wke-separate-text h3{
+	font-size: 1.2em;
+	padding: 20px;
+	margin:0;
+	text-align:center;
+}
+
+.wke-separate-text:before,
+.wke-separate-text:after{
+	position: relative;
+	content:"";
+	display:block;
+	height: 1px;
+	width: 30%;
+	border: 1px solid #ddd;
+	border-width: 1px 0 0;
+}
+
+.wke-separate-text.left:before,
+.wke-separate-text.right h3{
+	 order: 1;
+}

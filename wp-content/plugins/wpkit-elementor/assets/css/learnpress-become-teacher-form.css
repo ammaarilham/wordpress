@@ -1,0 +1,30 @@
+.wke-lp-become-teacher-form-wrapper .rwmb-field label,
+.wke-lp-become-teacher-form-wrapper .rwmb-label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.entry-content .wke-lp-become-teacher-form-wrapper p {
+	margin-bottom: 1.5em;
+}
+
+.wke-lp-become-teacher-form-wrapper input {
+	width: 100%;
+}
+
+.wke-lp-become-teacher-form-wrapper button {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.wke-lp-become-teacher-form-wrapper input,
+.wke-lp-become-teacher-form-wrapper textarea,
+.wke-lp-become-teacher-form-wrapper button[disabled] {
+	opacity: .6;
+}
+
+.wke-lp-become-teacher-form-wrapper ul.become-teacher-fields,
+.entry-content ul.become-teacher-fields{
+	margin: 0;
+	padding: 0;
+}

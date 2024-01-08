@@ -1,0 +1,254 @@
+/*
+ * Carousel
+ */
+.wke-carousel{
+   width:100%;
+   height:350px;
+   overflow:hidden;
+   position: relative;
+   display:none;
+   padding-bottom: 60px;
+}
+.wke-carousel.no-dots {
+   padding-bottom: 0;
+}
+.wke-carousel.no-title{
+   height:250px;
+}
+.wke-carousel .button-area{
+     width:80%;
+     height:40px;
+     display: flex;
+     display: -webkit-flex;
+     justify-content:center;
+     align-items:center;
+     -webkit-flex-flow: row;
+     flex-direction: row;
+  }
+.wke-carousel .wke-carousel-button{
+   width:40px;
+   height:40px;
+   background:#fff;
+   border-radius: 100%;
+   display: flex;
+   display: -webkit-flex;
+   justify-content:center;
+   align-items:center;
+   font-size:16px;
+   margin-right:10px;
+   color:#000;
+   transition: all .5s;
+   -moz-transition: all .5s;  /* Firefox 4 */
+   -webkit-transition: all .5s; /* Safari & Chrome */
+   -o-transition: all .5s; /* Opera */
+}
+.wke-carousel .wke-carousel-button:hover{
+   opacity: .7;
+}
+.wke-carousel .wke-carousel-button.buy{
+   background:#ff9300;
+   color:#fff;
+}
+
+.wke-carousel .swiper-slide{
+   position:relative;
+   padding-bottom: 15px;
+   overflow: hidden;
+}
+.wke-carousel .swiper-slide .wke-carousel-thumbnail{
+   width:100%;
+   height:250px;
+   display: block;
+   overflow:hidden;
+   position: relative;
+   background-color:#eee;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   -webkit-transform: scale(1);
+   -ms-transition: all 200ms ease-in;
+   -ms-transform: scale(1);
+   -moz-transition: all 200ms ease-in;
+   -moz-transform: scale(1);
+   transition: all 200ms ease-in;
+   transform: scale(1);
+   -webkit-transition: all 200ms ease-in;
+}
+.wke-carousel .swiper-slide .wke-carousel-thumbnail img {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+   -webkit-transition: all 200ms ease-in;
+   -ms-transition: all 200ms ease-in;
+   -moz-transition: all 200ms ease-in;
+   transition: all 200ms ease-in;
+}
+.wke-carousel .swiper-slide .wke-carousel-thumbnail .overlay{
+   width:100%;
+   height:100%;
+   opacity: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background:rgba(0,0,0,.5);
+   display: flex;
+   display: -webkit-flex;
+   justify-content:center;
+   align-items:center;
+   -webkit-flex-flow: column;
+   flex-direction: column;
+   font-size:4em;
+   color:#fff;
+   transition: all .5s;
+   -moz-transition: all .5s;  /* Firefox 4 */
+   -webkit-transition: all .5s; /* Safari & Chrome */
+   -o-transition: all .5s; /* Opera */
+   background:rgba(0,0,0,.7);
+}
+.wke-carousel .swiper-slide .wke-carousel-thumbnail.scale:hover img{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+}
+.wke-carousel .swiper-slide .wke-carousel-thumbnail:hover .overlay{
+    opacity: 1;
+}
+
+.wke-carousel .wke-carousel-thumbnail .overlay a.title{
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight:bold;
+    display: block;
+    color:#fff;
+    width:90%;
+    text-align:center;
+    margin-bottom:-5px;
+    transition: all .5s;
+    -moz-transition: all .5s;  /* Firefox 4 */
+    -webkit-transition: all .5s; /* Safari & Chrome */
+    -o-transition: all .5s; /* Opera */
+}
+.wke-carousel .wke-carousel-thumbnail .overlay span.wke-carousel-price,
+.wke-carousel .wke-carousel-thumbnail .overlay del.regular-price,
+.wke-carousel .wke-carousel-thumbnail .overlay span.sale-price,
+.wke-carousel .wke-carousel-thumbnail .overlay span.edd_price{
+    font-size: 16px;
+    display: block;
+    margin:5px 0 10px;
+    text-align: center;
+    color: #fff;
+    -moz-transition: all .2s;  /* Firefox 4 */
+    -webkit-transition: all .2s; /* Safari & Chrome */
+    -o-transition: all .2s; /* Opera */
+}
+.wke-carousel .wke-carousel-thumbnail .overlay del.regular-price{
+    margin-top:-20px;
+    font-size:.2em;
+}
+
+.wke-carousel .swiper-slide .on-sale{
+    z-index:3;
+    width:60px;
+    height:25px;
+    line-height:25px;
+    text-align:center;
+    color:#fff;
+    position: absolute;
+    top:  0;
+    left: 1px;
+    background:#000;
+    font-size:14px;
+}
+.wke-carousel .swiper-slide .wke-carousel-title {
+   font-size:16px;
+   font-weight: 600;
+   line-height: 1.2em;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+.wke-carousel .swiper-slide .wke-carousel-title.single-line {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  width: 100%;
+}
+.wke-carousel .swiper-slide .wke-carousel-title a{
+   color:#000;
+}
+.wke-carousel .swiper-slide .wke-carousel-title a:hover{
+   opacity: 1;
+}
+.wke-carousel .swiper-slide .wke-carousel-price {
+   font-size: 14px;
+}
+.wke-caroursel .added_to_cart.wc-forward{
+   font-size:12px;
+}
+.wke-carousel .swiper-slide p.wke-carousel-excerpt{
+   margin-bottom: 15px;
+   font-size:14px;
+   line-height: 1.5;
+   opacity: 0.6;
+   margin-top: 0;
+}
+.wke-carousel.text-center .swiper-slide .wke-carousel-price,
+.wke-carousel.text-center .swiper-slide .wke-carousel-title,
+.wke-carousel.text-center .swiper-slide p.wke-carousel-excerpt{
+   text-align: center;
+}
+
+.wke-carousel.wke-fullwidth,
+.wke-carousel.wke-fullwidth .swiper-wrapper{
+   overflow: initial;
+}
+
+.wke-carousel.zoom-in .swiper-slide{
+    transform: scale(0.8);
+}
+.wke-carousel.zoom-in .swiper-slide-active{
+    transform: scale(1);
+}
+.wke-carousel.zoom-in .swiper-slide .swiper-button-next{
+    right: 50px;
+}
+
+.wke-carousel .wke-carousel-meta {
+  font-size: 14px;
+  color: #aaa;
+}
+.wke-carousel .wke-carousel-footer {
+  border-top: 1px solid #eee;
+  padding: 10px 20px 0;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.wke-carousel.round .swiper-slide,
+.wke-carousel.round .wke-carousel-thumbnail {
+  border-radius: 5px;
+}
+.wke-carousel.round .swiper-slide.boxed .wke-carousel-thumbnail{
+  border-radius: 5px 5px 0 0;
+}
+
+.wke-carousel .swiper-slide.boxed {
+    background:#fff;
+}
+.wke-carousel .swiper-slide.boxed .wke-carousel-title,
+.wke-carousel .swiper-slide.boxed p.wke-carousel-excerpt {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.wke-carousel .swiper-slide.boxed .wke-carousel-price,
+.wke-carousel .swiper-slide.boxed .wke-carousel-price .regular-price {
+  margin-left: 20px;
+}
+.wke-carousel .swiper-slide.boxed .wke-carousel-meta {
+  margin-right: 20px;
+}

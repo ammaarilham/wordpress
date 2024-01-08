@@ -1,0 +1,72 @@
+/* 
+ * Interactive Banner 
+ * Slug: interactive-banner
+ */
+.wke-interactive-banner {
+  position:relative;
+  width:100%;
+  min-height: 180px;
+  height: auto;
+  overflow: hidden;
+  max-height: 500px;
+}
+.wke-interactive-banner .banner-picture{
+  width:100%;
+  height:auto;
+}
+.wke-interactive-banner .title{
+  position: absolute;
+  z-index:0;
+  left:50%;
+  top:50%;
+  width:60%;
+  min-height: 40px;
+  line-height: 1.2em;
+  margin:-20px 0 0 -30%;
+  padding: 10px 20px;
+  display:block;
+  text-align: center;
+  color:#fff;
+  opacity: 1;
+  font-size: 1em;
+  line-height:1.3em;
+  border:2px solid #fff;
+  border-color:rgba(255,255,255,.6);
+}
+.wke-interactive-banner .title:hover{
+  background:#fff;
+  color:#000;
+}
+.wke-interactive-banner .title.wke-hidden-title{
+  opacity: 0;
+}
+.wke-interactive-banner .banner-picture,
+.wke-interactive-banner .title{
+   -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.wke-interactive-banner a:hover img{
+  -webkit-transform: rotate(1deg) scale(1.2, 1.2);
+  opacity: .5;
+}
+.wke-interactive-banner a:hover .title{
+  opacity: 1;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

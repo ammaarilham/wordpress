@@ -1,0 +1,1802 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKit For Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-22 09:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4"
+
+#: includes/elementor/widgets/edd-products.php:97
+msgid ""
+" Specific the categories for the product grid. Multiple category should be "
+"separated by English comma."
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:103
+#: includes/elementor/widgets/edd-product-carousel.php:120
+#: includes/elementor/widgets/woo-product-carousel.php:130
+#: includes/elementor/widgets/image-carousel.php:117
+#: includes/elementor/widgets/edd-products.php:303
+msgid "1 Column"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:103
+#: includes/elementor/widgets/blog-carousel.php:104
+#: includes/elementor/widgets/edd-product-carousel.php:121
+#: includes/elementor/widgets/woo-product-carousel.php:131
+#: includes/elementor/widgets/image-carousel.php:118
+#: includes/elementor/widgets/blog-masonry.php:103
+#: includes/elementor/widgets/woo-products.php:265
+#: includes/elementor/widgets/edd-products.php:304
+msgid "2 Columns"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:104
+#: includes/elementor/widgets/blog-carousel.php:105
+#: includes/elementor/widgets/edd-product-carousel.php:122
+#: includes/elementor/widgets/woo-product-carousel.php:132
+#: includes/elementor/widgets/image-carousel.php:119
+#: includes/elementor/widgets/blog-masonry.php:104
+#: includes/elementor/widgets/woo-products.php:266
+#: includes/elementor/widgets/edd-products.php:305
+msgid "3 Columns"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:105
+#: includes/elementor/widgets/blog-carousel.php:106
+#: includes/elementor/widgets/edd-product-carousel.php:123
+#: includes/elementor/widgets/woo-product-carousel.php:133
+#: includes/elementor/widgets/image-carousel.php:120
+#: includes/elementor/widgets/blog-masonry.php:105
+#: includes/elementor/widgets/woo-products.php:267
+#: includes/elementor/widgets/edd-products.php:306
+msgid "4 Columns"
+msgstr ""
+
+#: includes/elementor/widgets/blog-masonry.php:106
+msgid "5 Columns"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:118
+msgid "Add New"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:141
+msgid "Add New Block Category"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:119
+msgid "Add New Global Block"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:144
+msgid "Add or remove block category"
+msgstr ""
+
+#: includes/global-blocks/global-blocks-widget.php:19
+msgid "Add the global blocks widget to anywhere you want."
+msgstr ""
+
+#: templates/woo-products.php:145
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/elementor/widgets/woo-cart-button.php:68
+msgid "Ajax"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:52
+#: includes/elementor/widgets/typing.php:72
+#: includes/elementor/widgets/edd-cart-button.php:118
+#: includes/elementor/widgets/blog-standard.php:283
+#: includes/elementor/widgets/woo-cart-button.php:99
+msgid "Alignment"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:136
+msgid "All Categories"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:123
+msgid "All Global Blocks"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:55
+#: includes/elementor/widgets/woo-products.php:63
+msgid "All Products"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:69
+#: includes/elementor/widgets/blog-carousel.php:69
+#: includes/elementor/widgets/edd-product-carousel.php:73
+#: includes/elementor/widgets/woo-product-carousel.php:83
+#: includes/elementor/widgets/blog-masonry.php:69
+#: includes/elementor/widgets/blog-standard.php:69
+msgid "Asc"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:157
+#: includes/elementor/widgets/edd-product-carousel.php:198
+#: includes/elementor/widgets/woo-product-carousel.php:274
+#: includes/elementor/widgets/image-carousel.php:171
+msgid "Autoplay"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:184
+msgid "Back Content"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:340
+msgid "Back Style"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:156
+#: includes/elementor/widgets/flipbox.php:248
+msgid "Background Color"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:170
+#: includes/elementor/widgets/flipbox.php:262
+msgid "Background Image"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:147
+msgid "Block Categories"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:18
+msgid "Blog Carousel"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:18
+msgid "Blog Grid"
+msgstr ""
+
+#: includes/elementor/widgets/blog-masonry.php:18
+msgid "Blog Masonry"
+msgstr ""
+
+#: includes/elementor/widgets/blog-standard.php:18
+msgid "Blog Standard"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:148
+#: includes/elementor/widgets/interactive-banner.php:192
+#: includes/elementor/widgets/woo-product-carousel.php:214
+#: includes/elementor/widgets/woo-products.php:454
+msgid "Border Color"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:107
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:108
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form-7.php:107
+#: includes/elementor/widgets/edd-cart-button.php:141
+#: includes/elementor/widgets/woo-cart-button.php:177
+msgid "Button Color"
+msgstr ""
+
+#: includes/elementor/widgets/pricetable.php:82
+msgid "Button Link"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:90
+#: includes/elementor/widgets/woo-cart-button.php:149
+msgid "Button Shape"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:104
+#: includes/elementor/widgets/woo-cart-button.php:163
+msgid "Button Size"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:77
+#: includes/elementor/widgets/woo-cart-button.php:127
+#: includes/elementor/widgets/woo-cart-button.php:136
+msgid "Button Style"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:66
+#: includes/elementor/widgets/pricetable.php:73
+#: includes/elementor/widgets/woo-cart-button.php:79
+msgid "Button Text"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form-7.php:121
+msgid "Button Text Color"
+msgstr ""
+
+#: templates/blog-grid.php:82 templates/blog-masonry.php:78
+#: templates/blog-standard.php:80
+msgid "By"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:90
+#: includes/elementor/widgets/edd-product-carousel.php:94
+#: includes/elementor/widgets/woo-product-carousel.php:104
+msgid "Carousel Setting"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:348
+#: includes/elementor/widgets/woo-product-carousel.php:438
+msgid "Cart Icon Background Color"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:359
+#: includes/elementor/widgets/woo-product-carousel.php:449
+msgid "Cart Icon Color"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:80
+#: includes/elementor/widgets/blog-carousel.php:79
+#: includes/elementor/widgets/edd-product-carousel.php:83
+#: includes/elementor/widgets/woo-product-carousel.php:93
+#: includes/elementor/widgets/blog-masonry.php:80
+#: includes/elementor/widgets/blog-standard.php:80
+#: includes/elementor/widgets/woo-products.php:154
+#: includes/elementor/widgets/edd-products.php:95
+msgid "Categories"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:60
+#: includes/elementor/widgets/typing.php:81
+#: includes/elementor/widgets/edd-cart-button.php:127
+#: includes/elementor/widgets/picture-slider.php:102
+#: includes/elementor/widgets/woo-cart-button.php:108
+msgid "Center"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:319
+#: includes/elementor/widgets/woo-products.php:200
+msgid "Center Alignment"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:103
+msgid "Center Left"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:104
+msgid "Center Right"
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:144
+#: includes/elementor/widgets/edd-products.php:176
+msgid "Change the font size of the title in the overlay"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:377
+#: includes/elementor/widgets/edd-products.php:208
+msgid "Change the line height of the title in the default grid style."
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:240
+msgid "Change the line heigt of the title in the default grid style."
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:218
+#: includes/elementor/widgets/woo-products.php:458
+msgid "Change the thumbnail border color."
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:441
+#: includes/elementor/widgets/edd-products.php:272
+msgid "Change the title color in the default grid style."
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:145
+msgid "Choose from the most used block category"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:144
+msgid ""
+"Choose the product image size, if you found the image is blur, just select "
+"large size."
+msgstr ""
+
+#: includes/elementor/widgets/woo-cart-button.php:64
+msgid "Click Action"
+msgstr ""
+
+#: includes/class-wpkit-elementor.php:56
+#: includes/global-blocks/class-global-blocks.php:94
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:196
+msgid "Color"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:115
+#: includes/elementor/widgets/edd-product-carousel.php:132
+#: includes/elementor/widgets/woo-product-carousel.php:158
+#: includes/elementor/widgets/image-carousel.php:129
+msgid "Column Gap"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:99
+#: includes/elementor/widgets/blog-carousel.php:99
+#: includes/elementor/widgets/edd-product-carousel.php:116
+#: includes/elementor/widgets/woo-product-carousel.php:126
+#: includes/elementor/widgets/image-carousel.php:113
+#: includes/elementor/widgets/blog-masonry.php:99
+#: includes/elementor/widgets/edd-products.php:299
+msgid "Columns"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form-7.php:18
+#: includes/elementor/widgets/contact-form-7.php:47
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:149
+#: includes/elementor/widgets/flipbox.php:241
+#: includes/elementor/widgets/image-carousel.php:68
+#: includes/elementor/widgets/image-carousel.php:238
+#: includes/elementor/widgets/testimonials.php:74
+#: includes/elementor/widgets/woo-products.php:42
+#: includes/elementor/widgets/edd-products.php:34
+msgid "Content"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:316
+#: includes/elementor/widgets/flipbox.php:382
+#: includes/elementor/widgets/image-carousel.php:247
+msgid "Content Text Color"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:329
+#: includes/elementor/widgets/flipbox.php:395
+#: includes/elementor/widgets/image-carousel.php:259
+msgid "Content Typography"
+msgstr ""
+
+#: templates/blog-masonry.php:93 templates/blog-standard.php:95
+msgid "Continue to read"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:18
+#: includes/elementor/widgets/countdown.php:34
+msgid "Countdown"
+msgstr ""
+
+#: includes/elementor/widgets/my-map.php:110
+msgid "Custom Styles"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:65
+msgid "Customer Avatar"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:51
+#: includes/elementor/widgets/testimonials.php:53
+msgid "Customer Name"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:161
+msgid "dashed"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:55
+#: includes/elementor/widgets/blog-carousel.php:55
+#: includes/elementor/widgets/edd-product-carousel.php:59
+#: includes/elementor/widgets/woo-product-carousel.php:69
+#: includes/elementor/widgets/blog-masonry.php:55
+#: includes/elementor/widgets/blog-standard.php:55
+#: includes/elementor/widgets/woo-products.php:78
+#: includes/elementor/widgets/edd-products.php:57
+msgid "Date"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:45
+msgid "Date set according to your timezone:"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:68
+#: includes/elementor/widgets/blog-carousel.php:68
+#: includes/elementor/widgets/edd-product-carousel.php:72
+#: includes/elementor/widgets/woo-product-carousel.php:82
+#: includes/elementor/widgets/blog-masonry.php:68
+#: includes/elementor/widgets/blog-standard.php:68
+msgid "Desc"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:60
+msgid "Designer"
+msgstr ""
+
+#: includes/elementor/widgets/pricetable.php:54
+msgid "Do not miss the currency symbol such as $10 or $10/month."
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:53
+msgid "Don't forget add http:// or https://"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:160
+msgid "Dotted"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:162
+msgid "Double"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:42
+msgid "Due Date"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:18
+#: includes/elementor/widgets/edd-cart-button.php:34
+msgid "EDD Cart Button"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:18
+msgid "EDD Product Carousel"
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:18
+msgid "EDD Products"
+msgstr ""
+
+#: includes/elementor/widgets/edd-search.php:18
+#: includes/elementor/widgets/edd-search.php:34
+msgid "EDD Search"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:139
+msgid "Edit Block Category"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:121
+msgid "Edit Global Block"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:113
+#: includes/elementor/widgets/blog-masonry.php:141
+#: includes/elementor/widgets/blog-standard.php:99
+msgid "Enable Pagination"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:87
+#: includes/elementor/widgets/edd-products.php:66
+msgid "Enable Pagination?"
+msgstr ""
+
+#: includes/elementor/widgets/blog-masonry.php:273
+#: includes/elementor/widgets/blog-standard.php:231
+msgid "Excerpt"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:234
+#: includes/elementor/widgets/blog-masonry.php:282
+#: includes/elementor/widgets/blog-standard.php:240
+msgid "Excerpt Color"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:246
+#: includes/elementor/widgets/blog-masonry.php:294
+#: includes/elementor/widgets/blog-standard.php:252
+msgid "Excerpt Typography"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:52
+msgid "Expired Notice"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:98
+#: includes/elementor/widgets/blog-grid.php:177
+#: includes/elementor/widgets/blog-carousel.php:182
+#: includes/elementor/widgets/typing.php:64
+#: includes/elementor/widgets/edd-product-carousel.php:223
+#: includes/elementor/widgets/woo-product-carousel.php:299
+#: includes/elementor/widgets/flipbox.php:81
+#: includes/elementor/widgets/image-carousel.php:195
+#: includes/elementor/widgets/edd-search.php:54
+#: includes/elementor/widgets/contact-form-7.php:137
+#: includes/elementor/widgets/edd-cart-button.php:161
+#: includes/elementor/widgets/blog-masonry.php:217
+#: includes/elementor/widgets/picture-slider.php:160
+#: includes/elementor/widgets/testimonials.php:104
+#: includes/elementor/widgets/pricetable.php:105
+#: includes/elementor/widgets/blog-standard.php:175
+#: includes/elementor/widgets/woo-cart-button.php:90
+#: includes/elementor/widgets/woo-products.php:165
+#: includes/elementor/widgets/edd-products.php:107
+msgid "Extra Class"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:56
+#: includes/elementor/widgets/woo-products.php:64
+msgid "Featured Products"
+msgstr ""
+
+#: templates/woo-products.php:167
+msgid "Featured!"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form-7.php:79
+msgid "Fields Background Color"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form-7.php:65
+msgid "Fields Border Color"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form-7.php:93
+msgid "Fields Text Color"
+msgstr ""
+
+#: includes/admin/class-admin.php:100
+msgid "Flexible Panel For Elementor"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:18
+msgid "Flip Box"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:45
+msgid "Flip Box Height"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:70
+msgid "Flip X"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:71
+msgid "Flip Y"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:35
+msgid "Flipbox Settings"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:67
+msgid "Flipping Direction"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:92
+msgid "Front Content"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:274
+msgid "Front Style"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:149
+msgid "Full"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:219
+msgid "Full Size"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:226
+msgid "Full Width"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:91
+#: includes/elementor/widgets/blog-masonry.php:91
+#: includes/elementor/widgets/blog-standard.php:91
+msgid "General Setting"
+msgstr ""
+
+#: includes/elementor/controls/parallax-controls.php:49
+msgid "Generally, the value should between -1 and +1"
+msgstr ""
+
+#: includes/elementor/controls/opacity-controls.php:25
+msgid "Generally, the value should between 0 and 1"
+msgstr ""
+
+#. Base ID
+#: includes/global-blocks/global-blocks-widget.php:18
+#: includes/global-blocks/class-global-blocks.php:115
+#: includes/global-blocks/class-global-blocks.php:129
+msgid "Global Block"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:114
+#: includes/global-blocks/class-global-blocks.php:116
+#: includes/global-blocks/class-global-blocks.php:117
+#: includes/elementor/widgets/global-blocks.php:18
+#: includes/elementor/widgets/global-blocks.php:47
+msgid "Global Blocks"
+msgstr ""
+
+#: includes/admin/class-admin.php:107
+msgid "Global Blocks For Elementor"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:190
+#: includes/elementor/widgets/edd-products.php:319
+msgid "Grid"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:261
+msgid "Grid Columns"
+msgstr ""
+
+#: includes/elementor/widgets/blog-masonry.php:114
+msgid "Grid Gap"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:468
+#: includes/elementor/widgets/edd-products.php:285
+msgid "Grid Shape"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:102
+#: includes/elementor/widgets/woo-product-carousel.php:112
+#: includes/elementor/widgets/image-carousel.php:99
+#: includes/elementor/widgets/woo-products.php:276
+#: includes/elementor/widgets/edd-products.php:125
+msgid "Grid Style"
+msgstr ""
+
+#: includes/elementor/widgets/my-map.php:81
+msgid "Height"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:84
+msgid "Hide Title By Default"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:148
+msgid "Horizontal"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:172
+msgid "Hover"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:169
+#: includes/elementor/widgets/edd-product-carousel.php:210
+#: includes/elementor/widgets/woo-product-carousel.php:238
+#: includes/elementor/widgets/image-carousel.php:183
+msgid "Hover Effect"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.themevan.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.themevan.com/item/wpkit-for-elementor"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:317
+#: includes/elementor/widgets/woo-product-carousel.php:407
+msgid "Icon"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:282
+#: includes/elementor/widgets/flipbox.php:348
+msgid "Icon Color"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:111
+#: includes/elementor/widgets/flipbox.php:203
+msgid "Icon Size"
+msgstr ""
+
+#: includes/elementor/widgets/pricetable.php:83
+msgid "If you leave it empty, the button will not be shown."
+msgstr ""
+
+#: includes/admin/class-admin.php:101
+msgid ""
+"If you turn on this module, the side panel of Elementor will be dragable "
+"that allow you to drag and drop it to anywhere on the editing screen."
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:99
+#: includes/elementor/widgets/blog-grid.php:178
+#: includes/elementor/widgets/blog-carousel.php:183
+#: includes/elementor/widgets/typing.php:65
+#: includes/elementor/widgets/edd-product-carousel.php:224
+#: includes/elementor/widgets/woo-product-carousel.php:300
+#: includes/elementor/widgets/flipbox.php:82
+#: includes/elementor/widgets/image-carousel.php:196
+#: includes/elementor/widgets/edd-search.php:55
+#: includes/elementor/widgets/contact-form-7.php:138
+#: includes/elementor/widgets/edd-cart-button.php:162
+#: includes/elementor/widgets/blog-masonry.php:218
+#: includes/elementor/widgets/picture-slider.php:161
+#: includes/elementor/widgets/testimonials.php:105
+#: includes/elementor/widgets/pricetable.php:106
+#: includes/elementor/widgets/blog-standard.php:176
+#: includes/elementor/widgets/woo-cart-button.php:91
+#: includes/elementor/widgets/woo-products.php:166
+#: includes/elementor/widgets/edd-products.php:108
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/elementor/widgets/image-carousel.php:18
+msgid "Image Carousel"
+msgstr ""
+
+#: includes/elementor/widgets/image-carousel.php:34
+msgid "Image Setting"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:142
+msgid "Image Size"
+msgstr ""
+
+#: includes/elementor/widgets/image-carousel.php:42
+msgid "Images"
+msgstr ""
+
+#: templates/blog-standard.php:76
+msgid "In"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:125
+#: includes/elementor/widgets/blog-masonry.php:153
+#: includes/elementor/widgets/blog-standard.php:111
+#: includes/elementor/widgets/woo-products.php:99
+#: includes/elementor/widgets/edd-products.php:78
+msgid "Infinite Scroll"
+msgstr ""
+
+#: includes/elementor/widgets/my-map.php:113
+msgid ""
+"Insert your Javascript styling array here to customize the map's look.  <a "
+"href=\"https://snazzymaps.com/\" target=\"_blank\">https://snazzymaps.com</a>"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:18
+#: includes/elementor/widgets/interactive-banner.php:34
+msgid "Interactive Banner"
+msgstr ""
+
+#: includes/elementor/widgets/image-carousel.php:46
+#: includes/elementor/widgets/testimonials.php:45
+msgid "Item #1 content"
+msgstr ""
+
+#: includes/elementor/widgets/image-carousel.php:70
+msgid "Item Content"
+msgstr ""
+
+#: includes/elementor/widgets/image-carousel.php:63
+msgid "Item Title"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:58
+msgid "Job Position"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:148
+#: includes/elementor/widgets/edd-cart-button.php:110
+#: includes/elementor/widgets/woo-cart-button.php:169
+#: includes/elementor/widgets/woo-products.php:220
+msgid "Large"
+msgstr ""
+
+#: includes/elementor/widgets/my-map.php:42
+msgid "Latitude"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:177
+#: includes/elementor/widgets/woo-products.php:187
+#: includes/elementor/widgets/edd-products.php:316
+msgid "Layout"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:56
+#: includes/elementor/widgets/typing.php:77
+#: includes/elementor/widgets/edd-cart-button.php:123
+#: includes/elementor/widgets/blog-standard.php:287
+#: includes/elementor/widgets/woo-cart-button.php:104
+msgid "Left"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:340
+#: includes/elementor/widgets/woo-products.php:405
+#: includes/elementor/widgets/edd-products.php:172
+#: includes/elementor/widgets/edd-products.php:236
+msgid "Line Height"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:155
+msgid "Line Style"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:175
+msgid "Line Weight"
+msgstr ""
+
+#: includes/elementor/widgets/image-carousel.php:75
+msgid "Link"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:60
+msgid "Link Target"
+msgstr ""
+
+#: includes/elementor/widgets/my-map.php:53
+msgid "Longitude"
+msgstr ""
+
+#: includes/admin/templates/modules-template.php:14
+msgid "Manage Modules"
+msgstr ""
+
+#: includes/elementor/widgets/pricetable.php:91
+msgid "Mark it As Featured Plan?"
+msgstr ""
+
+#: includes/elementor/widgets/my-map.php:120
+msgid "Marker Image"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:191
+#: includes/elementor/widgets/edd-products.php:320
+msgid "Masonry"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:147
+#: includes/elementor/widgets/edd-cart-button.php:109
+#: includes/elementor/widgets/woo-cart-button.php:168
+#: includes/elementor/widgets/woo-products.php:221
+msgid "Medium"
+msgstr ""
+
+#: includes/admin/class-admin.php:35 includes/admin/class-admin.php:36
+#: includes/admin/class-admin.php:37
+msgid "Modules"
+msgstr ""
+
+#: includes/elementor/controls/parallax-controls.php:47
+msgid "Momentum"
+msgstr ""
+
+#: includes/elementor/widgets/my-map.php:17
+#: includes/elementor/widgets/my-map.php:32
+msgid "My Map"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:142
+msgid "New Block Category Name"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:120
+msgid "New Global Block"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:117
+#: includes/elementor/widgets/blog-grid.php:129
+#: includes/elementor/widgets/blog-grid.php:144
+#: includes/elementor/widgets/blog-grid.php:156
+#: includes/elementor/widgets/blog-grid.php:168
+#: includes/elementor/widgets/blog-carousel.php:161
+#: includes/elementor/widgets/blog-carousel.php:173
+#: includes/elementor/widgets/edd-product-carousel.php:178
+#: includes/elementor/widgets/edd-product-carousel.php:190
+#: includes/elementor/widgets/edd-product-carousel.php:202
+#: includes/elementor/widgets/edd-product-carousel.php:214
+#: includes/elementor/widgets/woo-product-carousel.php:230
+#: includes/elementor/widgets/woo-product-carousel.php:242
+#: includes/elementor/widgets/woo-product-carousel.php:254
+#: includes/elementor/widgets/woo-product-carousel.php:266
+#: includes/elementor/widgets/woo-product-carousel.php:278
+#: includes/elementor/widgets/woo-product-carousel.php:290
+#: includes/elementor/widgets/woo-product-carousel.php:322
+#: includes/elementor/widgets/image-carousel.php:175
+#: includes/elementor/widgets/image-carousel.php:186
+#: includes/elementor/widgets/blog-masonry.php:145
+#: includes/elementor/widgets/blog-masonry.php:157
+#: includes/elementor/widgets/blog-masonry.php:172
+#: includes/elementor/widgets/blog-masonry.php:184
+#: includes/elementor/widgets/blog-masonry.php:196
+#: includes/elementor/widgets/blog-masonry.php:208
+#: includes/elementor/widgets/pricetable.php:95
+#: includes/elementor/widgets/blog-standard.php:103
+#: includes/elementor/widgets/blog-standard.php:115
+#: includes/elementor/widgets/blog-standard.php:130
+#: includes/elementor/widgets/blog-standard.php:142
+#: includes/elementor/widgets/blog-standard.php:154
+#: includes/elementor/widgets/blog-standard.php:166
+#: includes/elementor/widgets/blog-standard.php:275
+#: includes/elementor/widgets/woo-products.php:91
+#: includes/elementor/widgets/woo-products.php:103
+#: includes/elementor/widgets/woo-products.php:119
+#: includes/elementor/widgets/woo-products.php:132
+#: includes/elementor/widgets/woo-products.php:144
+#: includes/elementor/widgets/woo-products.php:203
+#: includes/elementor/widgets/woo-products.php:484
+#: includes/elementor/widgets/edd-products.php:70
+#: includes/elementor/widgets/edd-products.php:82
+#: includes/elementor/widgets/edd-products.php:370
+#: includes/elementor/widgets/edd-products.php:382
+#: includes/elementor/widgets/edd-products.php:394
+msgid "No"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:146
+msgid "No block category found."
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:127
+msgid "No global block found in Trash."
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:126
+msgid "No global block found."
+msgstr ""
+
+#: templates/edd-products.php:125
+msgid "No Item Found"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:480
+#: includes/elementor/widgets/edd-products.php:366
+msgid "No Margin Space"
+msgstr ""
+
+#: templates/blog-grid.php:96 templates/blog-carousel.php:44
+#: templates/edd-product-carousel.php:76 templates/blog-masonry.php:104
+#: templates/blog-standard.php:106
+msgid "No Posts Found"
+msgstr ""
+
+#: templates/woo-product-carousel.php:189
+msgid "No Product Found"
+msgstr ""
+
+#: templates/woo-products.php:253
+msgid "No Products Found"
+msgstr ""
+
+#: includes/elementor/widgets/blog-standard.php:291
+msgid "None"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:118
+#: includes/elementor/widgets/edd-cart-button.php:108
+#: includes/elementor/widgets/woo-cart-button.php:167
+msgid "Normal"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:43
+#: includes/elementor/widgets/blog-carousel.php:43
+#: includes/elementor/widgets/blog-masonry.php:43
+#: includes/elementor/widgets/blog-standard.php:43
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:47
+#: includes/elementor/widgets/woo-product-carousel.php:43
+msgid "Number of Products"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:51
+msgid "Number of Products Per Page"
+msgstr ""
+
+#: includes/elementor/controls/parallax-controls.php:26
+msgid "Off"
+msgstr ""
+
+#: includes/elementor/controls/parallax-controls.php:25
+msgid "On"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:57
+#: includes/elementor/widgets/woo-products.php:65
+msgid "On Sale Products"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:128
+msgid ""
+"Once a product has on sale price, the sale label will display on the product "
+"thumbnail."
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:115
+msgid ""
+"Once a product is set as featured product, the featured label will display "
+"on the product thumbnail."
+msgstr ""
+
+#: includes/elementor/widgets/typing.php:55
+msgid "One sentence or word per line."
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:130
+msgid "Only Thumbnail"
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:334
+msgid ""
+"Only when the thumbnail container height is not correct, then you should "
+"adjust this value. "
+msgstr ""
+
+#: includes/elementor/controls/opacity-controls.php:14
+#: includes/elementor/controls/opacity-controls.php:23
+msgid "Opacity"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:65
+msgid "Open in the new window"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:64
+msgid "Open in the same window"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:64
+#: includes/elementor/widgets/blog-carousel.php:64
+#: includes/elementor/widgets/edd-product-carousel.php:68
+#: includes/elementor/widgets/woo-product-carousel.php:78
+#: includes/elementor/widgets/blog-masonry.php:64
+#: includes/elementor/widgets/blog-standard.php:64
+msgid "Order"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:52
+#: includes/elementor/widgets/blog-carousel.php:52
+#: includes/elementor/widgets/edd-product-carousel.php:56
+#: includes/elementor/widgets/woo-product-carousel.php:66
+#: includes/elementor/widgets/blog-masonry.php:52
+#: includes/elementor/widgets/blog-standard.php:52
+#: includes/elementor/widgets/woo-products.php:74
+#: includes/elementor/widgets/edd-products.php:53
+msgid "Order By"
+msgstr ""
+
+#: templates/woo-products.php:205 templates/woo-products.php:237
+msgid "out of 5"
+msgstr ""
+
+#: templates/woo-product-carousel.php:86 templates/woo-products.php:123
+msgid "Out of Stock!"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:82
+#: includes/elementor/widgets/woo-cart-button.php:141
+msgid "Outline"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:107
+#: includes/elementor/widgets/edd-product-carousel.php:296
+#: includes/elementor/widgets/woo-product-carousel.php:117
+#: includes/elementor/widgets/woo-product-carousel.php:386
+#: includes/elementor/widgets/image-carousel.php:104
+msgid "Overlay"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:305
+#: includes/elementor/widgets/woo-product-carousel.php:395
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/elementor/controls/parallax-controls.php:14
+msgid "Parallax"
+msgstr ""
+
+#: includes/elementor/controls/parallax-controls.php:35
+msgid "Parallax Axis"
+msgstr ""
+
+#: includes/elementor/controls/parallax-controls.php:22
+msgid "Parallax Item"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:125
+msgid "Parent Global Blocks:"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:52
+#: includes/elementor/widgets/picture-slider.php:61
+msgid "Picture Link"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:18
+#: includes/elementor/widgets/picture-slider.php:43
+#: includes/elementor/widgets/picture-slider.php:50
+msgid "Picture Slider"
+msgstr ""
+
+#: includes/elementor/widgets/edd-search.php:43
+msgid "Placeholder Text"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:135
+msgid "Popular Block Category"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:34
+#: includes/elementor/widgets/blog-carousel.php:34
+#: includes/elementor/widgets/blog-masonry.php:34
+#: includes/elementor/widgets/blog-standard.php:34
+msgid "Post Setting"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:264
+#: includes/elementor/widgets/woo-product-carousel.php:354
+#: includes/elementor/widgets/pricetable.php:53
+msgid "Price"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:273
+#: includes/elementor/widgets/woo-product-carousel.php:363
+msgid "Price Color"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:54
+msgid "Price ID"
+msgstr ""
+
+#: includes/elementor/widgets/pricetable.php:18
+msgid "Price Table"
+msgstr ""
+
+#: includes/elementor/widgets/pricetable.php:34
+msgid "Price Table Content"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:375
+msgid "Price Typography"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:51
+#: includes/elementor/widgets/woo-products.php:59
+msgid "Product Data Filter"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:43
+msgid "Product ID"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:38
+#: includes/elementor/widgets/woo-product-carousel.php:34
+msgid "Product Setting"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:56
+#: includes/elementor/widgets/blog-carousel.php:56
+#: includes/elementor/widgets/edd-product-carousel.php:60
+#: includes/elementor/widgets/woo-product-carousel.php:70
+#: includes/elementor/widgets/blog-masonry.php:56
+#: includes/elementor/widgets/blog-standard.php:56
+#: includes/elementor/widgets/woo-products.php:79
+#: includes/elementor/widgets/edd-products.php:58
+msgid "Random"
+msgstr ""
+
+#: templates/woo-products.php:205 templates/woo-products.php:237
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: includes/elementor/widgets/woo-cart-button.php:69
+msgid "Redirect"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:64
+#: includes/elementor/widgets/typing.php:85
+#: includes/elementor/widgets/edd-cart-button.php:131
+#: includes/elementor/widgets/blog-standard.php:295
+#: includes/elementor/widgets/woo-cart-button.php:112
+msgid "Right"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:95
+#: includes/elementor/widgets/woo-cart-button.php:154
+#: includes/elementor/widgets/woo-products.php:472
+#: includes/elementor/widgets/edd-products.php:289
+msgid "Round"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:96
+#: includes/elementor/widgets/woo-cart-button.php:155
+msgid "Rounded"
+msgstr ""
+
+#: templates/woo-product-carousel.php:120 templates/woo-products.php:161
+msgid "Sale!"
+msgstr ""
+
+#: templates/edd-search.php:13
+msgid "Search"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:134
+msgid "Search Block Category"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:124
+msgid "Search Global Blocks"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form-7.php:56
+msgid "Select a Form"
+msgstr ""
+
+#: includes/elementor/widgets/global-blocks.php:56
+msgid "Select a Global Block"
+msgstr ""
+
+#: includes/global-blocks/global-blocks-widget.php:72
+msgid "Select a Template"
+msgstr ""
+
+#: includes/elementor/widgets/flipbox.php:102
+#: includes/elementor/widgets/flipbox.php:194
+msgid "Select Icon"
+msgstr ""
+
+#: templates/woo-products.php:150
+msgid "Select Options"
+msgstr ""
+
+#: includes/elementor/widgets/woo-cart-button.php:55
+msgid "Select Product"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:143
+msgid "Separate block category with commas"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:147
+msgid "Separate Line Settings"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:18
+#: includes/elementor/widgets/separate-text.php:42
+msgid "Separate Text"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:263
+#: includes/elementor/widgets/woo-products.php:278
+msgid "Set the number of grid columns"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:101
+#: includes/elementor/widgets/edd-product-carousel.php:118
+#: includes/elementor/widgets/woo-product-carousel.php:128
+#: includes/elementor/widgets/image-carousel.php:115
+msgid "Set the number of grid columns when the screen size is bigger than 1024"
+msgstr ""
+
+#: includes/template-tags.php:10
+msgid "Share"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:186
+#: includes/elementor/widgets/woo-product-carousel.php:262
+#: includes/elementor/widgets/edd-products.php:390
+msgid "Show Cart Button"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:140
+msgid "Show Categories List?"
+msgstr ""
+
+#: includes/elementor/widgets/blog-standard.php:271
+msgid "Show Featured Image"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:114
+msgid "Show Featured Label?"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:164
+#: includes/elementor/widgets/blog-masonry.php:204
+#: includes/elementor/widgets/blog-standard.php:162
+msgid "Show Post Author"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:152
+#: includes/elementor/widgets/blog-masonry.php:192
+#: includes/elementor/widgets/blog-standard.php:150
+msgid "Show Post Category"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:140
+#: includes/elementor/widgets/blog-masonry.php:180
+#: includes/elementor/widgets/blog-standard.php:138
+msgid "Show Post Date"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:174
+#: includes/elementor/widgets/woo-product-carousel.php:250
+#: includes/elementor/widgets/edd-products.php:378
+msgid "Show Price"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:127
+msgid "Show Sale Label?"
+msgstr ""
+
+#: includes/elementor/widgets/blog-masonry.php:168
+#: includes/elementor/widgets/blog-standard.php:126
+msgid "Show Social Share Icons"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:55
+msgid "Show the text after the time is expired."
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:76
+msgid "Slide Content"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:55
+msgid "Slide Picture"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:146
+msgid "Slider Direction"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:121
+msgid "Slider Height"
+msgstr ""
+
+#: includes/elementor/widgets/image-carousel.php:91
+msgid "Slider Setting"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:222
+msgid "Small"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:159
+msgid "Solid"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:82
+#: includes/elementor/widgets/blog-carousel.php:81
+#: includes/elementor/widgets/blog-masonry.php:82
+#: includes/elementor/widgets/blog-standard.php:82
+msgid ""
+"Specific the categories for the posts. Multiple category should be separated "
+"by English comma."
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:156
+msgid ""
+"Specific the categories for the product grid. Multiple category should be "
+"separated by English comma."
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:85
+#: includes/elementor/widgets/woo-product-carousel.php:95
+msgid ""
+"Specific the categories for the products. Multiple category should be "
+"separated by English comma."
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:94
+#: includes/elementor/widgets/woo-cart-button.php:153
+#: includes/elementor/widgets/woo-products.php:471
+#: includes/elementor/widgets/edd-products.php:288
+msgid "Square"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:106
+#: includes/elementor/widgets/woo-product-carousel.php:116
+#: includes/elementor/widgets/image-carousel.php:103
+#: includes/elementor/widgets/edd-cart-button.php:81
+#: includes/elementor/widgets/woo-cart-button.php:140
+msgid "Standard"
+msgstr ""
+
+#: includes/elementor/widgets/edd-cart-button.php:79
+#: includes/elementor/widgets/woo-cart-button.php:66
+#: includes/elementor/widgets/woo-cart-button.php:138
+msgid "Standard or outline style."
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:437
+#: includes/elementor/widgets/edd-products.php:268
+msgid "Standard Title Color"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:373
+#: includes/elementor/widgets/edd-products.php:204
+msgid "Standard Title Size"
+msgstr ""
+
+#: includes/elementor/widgets/typing.php:44
+msgid "Static Text"
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:117
+msgid "Style"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:86
+msgid "Subtitle"
+msgstr ""
+
+#: includes/elementor/widgets/pricetable.php:64
+msgid ""
+"Support shortcode and specific HTML tags: strong, span, ol, ul, li, em, b, i,"
+" a, blockquote. "
+msgstr ""
+
+#: includes/elementor/widgets/pricetable.php:63
+msgid "Table Content"
+msgstr ""
+
+#: includes/elementor/widgets/pricetable.php:44
+msgid "Table Name"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:132
+msgctxt "taxonomy general name"
+msgid "Block Categoies"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:133
+msgctxt "taxonomy singular name"
+msgid "Block Category"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:18
+#: includes/elementor/widgets/testimonials.php:34
+#: includes/elementor/widgets/testimonials.php:41
+msgid "Testimonials"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:192
+#: includes/elementor/widgets/typing.php:101
+msgid "Text"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:160
+#: includes/elementor/widgets/interactive-banner.php:204
+msgid "Text Background Color"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:114
+msgid "Text Border Width"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:76
+#: includes/elementor/widgets/typing.php:109
+#: includes/elementor/widgets/countdown.php:99
+#: includes/elementor/widgets/edd-cart-button.php:150
+#: includes/elementor/widgets/picture-slider.php:92
+#: includes/elementor/widgets/testimonials.php:89
+#: includes/elementor/widgets/woo-cart-button.php:186
+msgid "Text Color"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:99
+msgid "Text Position"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:34
+msgid "Text Settings"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:109
+msgid "Text Style"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:87
+msgid "Text Width"
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:44
+msgid "The number of products per page"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:280
+msgid "The single template doesn't exist."
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:359
+msgid "The thumbnail size options: thumbnail, medium, large, full"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeVan"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:146
+#: includes/elementor/widgets/blog-standard.php:263
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:129
+msgid "Thumbnail + Title"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:280
+msgid "Thumbnail + Title + Price"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:201
+msgid "Thumbnail Bacgkround Color"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:135
+#: includes/elementor/widgets/edd-product-carousel.php:152
+#: includes/elementor/widgets/woo-product-carousel.php:178
+#: includes/elementor/widgets/image-carousel.php:149
+#: includes/elementor/widgets/blog-standard.php:312
+#: includes/elementor/widgets/woo-products.php:236
+msgid "Thumbnail Height"
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:330
+msgid "Thumbnail Mini Height"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:216
+#: includes/elementor/widgets/edd-products.php:356
+msgid "Thumbnail Size"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:281
+msgid "Thumbnail With Hover Effect"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:75
+#: includes/elementor/widgets/edd-product-carousel.php:232
+#: includes/elementor/widgets/countdown.php:91
+#: includes/elementor/widgets/woo-product-carousel.php:310
+#: includes/elementor/widgets/flipbox.php:140
+#: includes/elementor/widgets/flipbox.php:232
+#: includes/elementor/widgets/image-carousel.php:61
+#: includes/elementor/widgets/image-carousel.php:206
+#: includes/elementor/widgets/blog-masonry.php:229
+#: includes/elementor/widgets/picture-slider.php:67
+#: includes/elementor/widgets/blog-standard.php:187
+msgid "Title"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:126
+#: includes/elementor/widgets/interactive-banner.php:180
+#: includes/elementor/widgets/blog-carousel.php:201
+#: includes/elementor/widgets/edd-product-carousel.php:241
+#: includes/elementor/widgets/woo-product-carousel.php:331
+#: includes/elementor/widgets/flipbox.php:294
+#: includes/elementor/widgets/flipbox.php:360
+#: includes/elementor/widgets/image-carousel.php:215
+#: includes/elementor/widgets/blog-masonry.php:238
+#: includes/elementor/widgets/blog-standard.php:196
+msgid "Title Color"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:213
+#: includes/elementor/widgets/blog-masonry.php:250
+#: includes/elementor/widgets/blog-standard.php:208
+msgid "Title Hover Color"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:307
+#: includes/elementor/widgets/edd-products.php:140
+msgid "Title Size In The Overlay"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:138
+#: includes/elementor/widgets/blog-carousel.php:224
+#: includes/elementor/widgets/edd-product-carousel.php:253
+#: includes/elementor/widgets/edd-product-carousel.php:285
+#: includes/elementor/widgets/woo-product-carousel.php:343
+#: includes/elementor/widgets/flipbox.php:307
+#: includes/elementor/widgets/flipbox.php:373
+#: includes/elementor/widgets/image-carousel.php:227
+#: includes/elementor/widgets/blog-masonry.php:261
+#: includes/elementor/widgets/blog-standard.php:219
+#: includes/elementor/widgets/woo-products.php:290
+msgid "Title Typography"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:74
+msgid "Title Wrapper"
+msgstr ""
+
+#: includes/global-blocks/global-blocks-widget.php:68
+msgid "Title:"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:105
+msgid "Top Left"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:106
+msgid "Top Right"
+msgstr ""
+
+#: includes/elementor/widgets/edd-products.php:301
+msgid "Two or three columns of the grid."
+msgstr ""
+
+#: includes/elementor/widgets/typing.php:18
+#: includes/elementor/widgets/typing.php:34
+msgid "Typing"
+msgstr ""
+
+#: includes/elementor/widgets/typing.php:54
+msgid "Typing Text"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:135
+#: includes/elementor/widgets/countdown.php:112
+msgid "Typography"
+msgstr ""
+
+#: includes/class-wpkit-elementor.php:65
+#: includes/global-blocks/class-global-blocks.php:103
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:140
+msgid "Update Block Category"
+msgstr ""
+
+#: includes/elementor/widgets/interactive-banner.php:43
+#: includes/elementor/widgets/image-carousel.php:52
+msgid "Upload Picture"
+msgstr ""
+
+#: includes/elementor/widgets/picture-slider.php:149
+msgid "Vertical"
+msgstr ""
+
+#: includes/elementor/widgets/my-map.php:101
+msgid "View"
+msgstr ""
+
+#: templates/woo-products.php:141
+msgid "View All Related Products"
+msgstr ""
+
+#: includes/global-blocks/class-global-blocks.php:122
+msgid "View Global Block"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:326
+#: includes/elementor/widgets/woo-product-carousel.php:416
+msgid "View Icon Background Color"
+msgstr ""
+
+#: includes/elementor/widgets/edd-product-carousel.php:337
+#: includes/elementor/widgets/woo-product-carousel.php:427
+msgid "View Icon Color"
+msgstr ""
+
+#: templates/woo-products.php:135
+msgid "View Product"
+msgstr ""
+
+#: includes/elementor/widgets/separate-text.php:214
+msgid "Width"
+msgstr ""
+
+#: includes/elementor/widgets/woo-cart-button.php:18
+#: includes/elementor/widgets/woo-cart-button.php:46
+msgid "WooCommerce Button"
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:18
+msgid "WooCommerce Product Carousel"
+msgstr ""
+
+#: includes/elementor/widgets/woo-products.php:20
+msgid "WooCommerce Product Grid"
+msgstr ""
+
+#: includes/elementor/class-extend-elementor.php:56
+msgid "WPKit Common"
+msgstr ""
+
+#: includes/elementor/class-extend-elementor.php:72
+msgid "WPKit EDD"
+msgstr ""
+
+#. Name of the plugin
+msgid "WPKit For Elementor"
+msgstr ""
+
+#. Description of the plugin
+#: includes/admin/class-admin.php:79
+msgid ""
+"WPKit For Elementor offers more custom Elementor widgets, flexible panel and "
+"global block module."
+msgstr ""
+
+#: includes/elementor/class-extend-elementor.php:64
+msgid "WPKit WooCommerce"
+msgstr ""
+
+#: includes/elementor/controls/parallax-controls.php:39
+msgid "X axis"
+msgstr ""
+
+#: includes/elementor/controls/parallax-controls.php:38
+msgid "Y axis"
+msgstr ""
+
+#: includes/elementor/widgets/blog-grid.php:116
+#: includes/elementor/widgets/blog-grid.php:128
+#: includes/elementor/widgets/blog-grid.php:143
+#: includes/elementor/widgets/blog-grid.php:155
+#: includes/elementor/widgets/blog-grid.php:167
+#: includes/elementor/widgets/blog-carousel.php:160
+#: includes/elementor/widgets/blog-carousel.php:172
+#: includes/elementor/widgets/edd-product-carousel.php:177
+#: includes/elementor/widgets/edd-product-carousel.php:189
+#: includes/elementor/widgets/edd-product-carousel.php:201
+#: includes/elementor/widgets/edd-product-carousel.php:213
+#: includes/elementor/widgets/woo-product-carousel.php:229
+#: includes/elementor/widgets/woo-product-carousel.php:241
+#: includes/elementor/widgets/woo-product-carousel.php:253
+#: includes/elementor/widgets/woo-product-carousel.php:265
+#: includes/elementor/widgets/woo-product-carousel.php:277
+#: includes/elementor/widgets/woo-product-carousel.php:289
+#: includes/elementor/widgets/woo-product-carousel.php:321
+#: includes/elementor/widgets/image-carousel.php:174
+#: includes/elementor/widgets/image-carousel.php:185
+#: includes/elementor/widgets/blog-masonry.php:144
+#: includes/elementor/widgets/blog-masonry.php:156
+#: includes/elementor/widgets/blog-masonry.php:171
+#: includes/elementor/widgets/blog-masonry.php:183
+#: includes/elementor/widgets/blog-masonry.php:195
+#: includes/elementor/widgets/blog-masonry.php:207
+#: includes/elementor/widgets/pricetable.php:94
+#: includes/elementor/widgets/blog-standard.php:102
+#: includes/elementor/widgets/blog-standard.php:114
+#: includes/elementor/widgets/blog-standard.php:129
+#: includes/elementor/widgets/blog-standard.php:141
+#: includes/elementor/widgets/blog-standard.php:153
+#: includes/elementor/widgets/blog-standard.php:165
+#: includes/elementor/widgets/blog-standard.php:274
+#: includes/elementor/widgets/woo-products.php:90
+#: includes/elementor/widgets/woo-products.php:102
+#: includes/elementor/widgets/woo-products.php:118
+#: includes/elementor/widgets/woo-products.php:131
+#: includes/elementor/widgets/woo-products.php:143
+#: includes/elementor/widgets/woo-products.php:202
+#: includes/elementor/widgets/woo-products.php:483
+#: includes/elementor/widgets/edd-products.php:69
+#: includes/elementor/widgets/edd-products.php:81
+#: includes/elementor/widgets/edd-products.php:369
+#: includes/elementor/widgets/edd-products.php:381
+#: includes/elementor/widgets/edd-products.php:393
+msgid "Yes"
+msgstr ""
+
+#: includes/elementor/widgets/blog-carousel.php:140
+#: includes/elementor/widgets/edd-product-carousel.php:157
+#: includes/elementor/widgets/blog-standard.php:316
+msgid "You can adjust the thumbnail height for different devices. "
+msgstr ""
+
+#: includes/admin/class-admin.php:108
+msgid ""
+"You can create the global template part with global blocks and insert the "
+"global blocks to anywhere."
+msgstr ""
+
+#: includes/elementor/widgets/woo-product-carousel.php:287
+msgid "Zoom in The Active Slide"
+msgstr ""
+
+#: includes/elementor/widgets/my-map.php:64
+msgid "Zoom Level"
+msgstr ""

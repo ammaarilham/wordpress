@@ -1,0 +1,167 @@
+.wke-flipbox{
+  width: 100%;
+  cursor: pointer;
+}
+
+.wke-flipbox .flipper{
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.wke-flipbox .front,
+.wke-flipbox .back{
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  text-align: center;
+  min-height: 200px;
+  height: auto;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.wke-flipbox .front:after,
+.wke-flipbox .back:after{
+  position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    opacity: .9;
+    background-color: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+.wke-flipbox .flipper:hover .front,
+.wke-flipbox .flipper:hover .back{
+    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.wke-flipbox .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.wke-flipbox .inner{
+    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+            transform: translateY(-50%) translateZ(60px) scale(0.94);
+    top: 50%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: 1px solid transparent;
+    -webkit-perspective: inherit;
+            perspective: inherit;
+    z-index: 2;
+}
+
+.wke-flipbox .flipper .back{
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+.wke-flipbox .flipper .front{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+.wke-flipbox .flipper:hover .back{
+   -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+   -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.wke-flipbox .flipper:hover .front{
+   -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+   -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.wke-flipbox .back .inner p,
+.wke-flipbox .front .inner p{
+  font-size: 16px;
+  line-height:1.4em;
+  margin-bottom: 1.5rem;
+  position: relative;
+  margin-top: 0;
+}
+.wke-flipbox .back .inner p.icon,
+.wke-flipbox .front .inner p.icon{
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.wke-flipbox .front .inner p:after{
+  content: '';
+  width: 4rem;
+  height: 2px;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -.75rem;
+}
+
+.wke-flipbox .front .inner span{
+  color: rgba(255,255,255,0.7);
+  font-weight: 300;
+}
+.wke-flipbox .back .inner .wke-button {
+  margin-top: 15px;
+  text-transform: initial;
+  font-weight: 400;
+}
+
+/* vertical */
+.vertical.wke-flipbox {
+  position: relative;
+}
+
+  .vertical .flipper .back {
+    -webkit-transform: rotateX(-180deg);
+    -moz-transform: rotateX(-180deg);
+    -ms-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+  }
+
+  .vertical.wke-flipbox .flipper:hover .back{
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      -o-transform: rotateX(0deg);
+      -ms-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+  }
+
+  .vertical.wke-flipbox .flipper:hover .front{
+      -webkit-transform: rotateX(180deg);
+      -moz-transform: rotateX(180deg);
+      -o-transform: rotateX(180deg);
+      transform: rotateX(180deg);
+  }

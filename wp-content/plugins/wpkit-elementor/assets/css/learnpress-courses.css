@@ -1,0 +1,18 @@
+.wke-learnpress-courses .wke-grid-item .wke-grid-meta {
+  display: flex;
+  justify-content: space-between;
+}
+.wke-learnpress-courses .wke-grid-item .wke-grid-price{
+   text-align: left;
+   width: 10%;
+   position: relative;
+   font-size: 14px;
+   right: 0;
+   bottom: 0;
+}
+.wke-learnpress-courses .wke-grid-item .wke-grid-title a:first-child{
+   opacity: 1;
+   font-weight: unset;
+   font-size: initial;
+   display: initial;
+}

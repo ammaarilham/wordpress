@@ -1,0 +1,107 @@
+.wke-wedocs-search select {
+	width: 100px;
+}
+.wke-wedocs-search select,
+.wke-wedocs-search input[type="submit"] {
+	padding: 0.7em 1em;
+}
+.wke-wedocs-search form {
+	display: flex;
+	justify-content: center;
+}
+.wke-wedocs-search form div {
+	margin-right: 10px;
+}
+.wke-wedocs-search form div:last-child {
+	margin-right: 0;
+}
+.wke-wedocs-search form div .search-field {
+	width: 400px;
+}
+
+.wedocs-archive-wrap {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.wedocs-archive-wrap ul {
+	margin: 0;
+	padding: 0;
+}
+.wedocs-archive-wrap ul.wedocs-docs-list.col-2:not(.wedocs-doc-sections),
+.wedocs-archive-wrap ul.wedocs-docs-list.col-3:not(.wedocs-doc-sections) {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.wedocs-archive-wrap ul.wedocs-docs-list.col-2:not(.wedocs-doc-sections) > li,
+.wedocs-archive-wrap ul.wedocs-docs-list.col-3:not(.wedocs-doc-sections) > li{
+	padding: 10px 20px 20px;
+	border: 1px solid #eee;
+	margin: 0 20px 40px 0;
+}
+.wedocs-archive-wrap ul.wedocs-docs-list.col-2:not(.wedocs-doc-sections) > li:nth-child(2n+2),
+.wedocs-archive-wrap ul.wedocs-docs-list.col-3:not(.wedocs-doc-sections) > li:nth-child(3n+3){
+	margin-right: 0;
+}
+.wedocs-archive-wrap ul.wedocs-docs-list.col-2:not(.wedocs-doc-sections) > li{
+    width: 48%;
+}
+.wedocs-archive-wrap ul.wedocs-docs-list.col-3:not(.wedocs-doc-sections) > li{
+    width: 32%;
+}
+@media(max-width: 1034px){
+	.wedocs-archive-wrap ul.wedocs-docs-list.col-3:not(.wedocs-doc-sections) > li{
+	    width: 30%;
+	}
+}
+@media(max-width: 959px){
+	.wedocs-archive-wrap ul.wedocs-docs-list.col-2:not(.wedocs-doc-sections),
+	.wedocs-archive-wrap ul.wedocs-docs-list.col-3:not(.wedocs-doc-sections) {
+		display: block;
+		justify-content: start;
+	}
+	.wedocs-archive-wrap ul.wedocs-docs-list.col-2:not(.wedocs-doc-sections) > li,
+	.wedocs-archive-wrap ul.wedocs-docs-list.col-3:not(.wedocs-doc-sections) > li{
+	    width: 48%;
+	    float: left;
+	}
+}
+@media(max-width: 767px){
+	.wedocs-archive-wrap ul.wedocs-docs-list.col-2:not(.wedocs-doc-sections) > li,
+	.wedocs-archive-wrap ul.wedocs-docs-list.col-3:not(.wedocs-doc-sections) > li{
+	    width: 100%;
+	    margin-right: 0;
+	}
+}
+.wedocs-archive-wrap li {
+	list-style: none;
+}
+.wedocs-archive-wrap li a {
+	color: #000;
+}
+.wedocs-archive-wrap li a:hover {
+	opacity: .6;
+}
+.wedocs-archive-wrap .wedocs-docs-single h3 {
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	font-size: 18px;
+}
+.wedocs-archive-wrap .wedocs-doc-sections li {
+	line-height: 1.5;
+	margin-bottom: 10px;
+	list-style: inside;
+}
+.wedocs-archive-wrap .wedocs-doc-link {
+	text-align: right;
+	margin-top: 20px;
+}
+.wedocs-archive-wrap .wedocs-doc-link a {
+	color: #999;
+  font-size: 14px;
+}
+.wedocs-archive-wrap .wedocs-doc-link a:hover {
+	color: #000;
+}

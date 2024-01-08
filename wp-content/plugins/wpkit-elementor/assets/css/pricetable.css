@@ -1,0 +1,72 @@
+/**
+ * Pricetable
+ */
+
+.wke-price-table{
+	max-width:400px;
+	min-width:200px;
+	margin:0 auto 10px;
+	width:auto;
+	height:auto;
+	overflow: hidden;
+	background:#fff;
+	border-radius: 3px;
+	border:1px solid rgba(0,0,0,.1);
+}
+.wke-price-table header h3{
+	height:50px;
+	line-height: 50px;
+	font-size:1em;
+	font-weight:600;
+	margin:0px;
+	padding:10px 0 60px;
+	border-bottom: 1px solid #e9e9e9;
+	text-align: center;
+	color:#000;
+}
+.wke-price-table header .price{
+	width:100%;
+	height:80px;
+	line-height:80px;
+	border-bottom:1px solid #e9e9e9;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight:400;
+}
+.wke-price-table .price-content{
+	margin:20px;
+}
+.wke-price-table ul,
+.wke-price-table ol{
+	margin: 0;
+	padding:0;
+	list-style:none;
+}
+.wke-price-table ol li,
+.wke-price-table ul li{
+	border-bottom: 1px solid #f6f6f6;
+	padding:10px 0;
+	text-align: center;
+	font-size: 16px;
+}
+.wke-price-table footer{
+	height:80px;
+	line-height: 80px;
+	text-align: center;
+	margin-bottom:20px;
+}
+.wke-price-table footer .wke-price-table-button{
+	padding:12px 30px;
+	position: relative;
+	top: 8px;
+	background: #000;
+	color: #fff;
+}
+
+.wke-price-table.featured header h3,
+.wke-price-table.featured header .price{
+	color:#ff839e;
+}
+.wke-price-table.featured .wke-price-table-button{
+	background:#ff839e;
+}

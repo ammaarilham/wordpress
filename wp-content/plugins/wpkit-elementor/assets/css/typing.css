@@ -1,0 +1,23 @@
+/* 
+ * Typing 
+ * Slug: typing
+ */
+.wke-typing-text{
+  font-size: 3em;
+  line-height: 1.2em;
+  margin: 20px auto;
+}
+.wke-typing-text span{
+  font-weight: bold;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@media(max-width:767px){
+	.wke-typing-text{
+		font-size: 1.5em;
+	}
+}

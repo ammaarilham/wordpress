@@ -1,0 +1,178 @@
+/**
+ * WooCommerce Products
+ */
+
+.wke-grids .wke-wc-product-item .wke-grid-title{
+  margin-bottom:0px;
+  line-height: 1.5;
+}
+.wke-wc-product-item .no-stock{
+  font-size:12px;
+  font-weight:normal;
+  color:#f00;
+  margin-left:10px;
+  font-style: italic;
+}
+.woocommerce .wke-wc-product-item .star-rating{
+  float:none!important;
+  clear:both;
+  margin:10px 0 5px;
+  font-size:12px;
+}
+.wke-wc-product-item .star-rating span:before{
+  color:#f80;
+}
+.wke-wc-product-item .sale-price{
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 5px;
+  display: inline-block;
+  color: #777;
+}
+.wke-wc-product-item .regular-price{
+  font-size: 14px;
+  color: #777;
+}
+.wke-wc-product-item .price{
+  font-size: 14px;
+  color: #666;
+}
+
+.wke-wc-product-item span.on-sale{
+  z-index: 3;
+  width: 60px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top:  0;
+  left: 1px;
+  background: #000;
+  font-size: 14px;
+}
+.wke-wc-product-item.wke-featured-product span.on-sale{
+  top: 30px;
+}
+.wke-wc-product-item span.featured{
+  z-index: 3;
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  width: 90px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  left: 0;
+  top: 0;
+  background: #f80;
+  box-shadow: 0px 2px 5px rgba(0,0,0,.1);
+}
+.wke-wc-product-item .product-showcase a{
+  position: relative;
+  height:100%;
+  display:block;
+  overflow:hidden;
+}
+.wke-wc-product-item .product-showcase span.product-hover-image{
+  opacity: 0;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  z-index: 0;
+  width:100%;
+  height:100%;
+  display: block;
+  position: absolute;
+  background-color:#fff;
+  background-size: 95% auto;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s; /* Firefox 4 */
+  -webkit-transition: all 0.3s; /* Safari and Chrome */
+  -o-transition: all 0.3s; /* Opera */
+}
+.wke-wc-product-item .product-showcase .button-area{
+  position:absolute;
+  left:0;
+  bottom:-60px;
+  font-weight:bold;
+  background:#222;
+  background:rgba(0,0,0,.5);
+  border-radius: 0!important;
+  -webkit-border-radius:0!important;
+  -moz-border-radius:0!important;
+  -o-border-radius:0!important;
+  border:none;
+  width:100%;
+  height:50px;
+  line-height:25px;
+  display: block;
+  z-index: 2;
+  text-align: center;
+  transition: all .3s;
+  -moz-transition: all .3s; /* Firefox 4 */
+  -webkit-transition: all .3s; /* Safari / Chrome */
+  -o-transition: all .3s; /* Opera */
+}
+.wke-wc-product-item .product-showcase .button-area a.add_to_cart_button{
+  right:0;
+  bottom:0;
+  opacity:1;
+  background: none;
+  width: 100%;
+  height: 100%;
+  margin:0;
+  font-size: 16px;
+}
+.wke-wc-product-item .product-showcase .button-area i{
+  margin-right:5px;
+}
+.wke-wc-product-item .product-showcase .button-area.added,
+.wke-wc-product-item .product-showcase .button-area:hover{
+  background:#000;
+  color:#fff;
+}
+.wke-wc-product-item .product-showcase:hover .button-area{
+  display:block;
+  bottom: 0px;
+}
+.wke-wc-product-item .product-showcase:hover .overlay .button-area{
+  bottom: -20px;
+}
+.wke-wc-product-item .product-showcase:hover span.product-hover-image{
+  opacity: 1;
+}
+.wke-wc-product-item .product-showcase .overlay .added_to_cart,
+.wke-wc-product-item .product-showcase .overlay .price{
+  color: #fff;
+  font-size: 12px;
+}
+.wke-wc-product-item .product-showcase .overlay .button i{
+  margin-right:10px;
+}
+.wke-wc-product-item .product-showcase .overlay .button-area,
+.wke-wc-product-item .product-showcase .overlay .button-area:hover{
+  background:none;
+  position:relative;
+  margin-top:0;
+}
+.wke-wc-product-item .product-showcase .overlay .button-area a.button{
+  color:#f90;
+  margin-top:0px;
+  border:0;
+  background:none;
+  padding:5px 10px;
+  font-size:14px;
+}
+.wke-wc-product-item .product-showcase .overlay .star-rating span:before{
+  color:#fff;
+}
+
+.wke-grids.text-center,
+.wke-grids.text-center,
+.wke-grids.text-center{
+   text-align: center;
+}
